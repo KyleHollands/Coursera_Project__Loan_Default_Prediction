@@ -1,7 +1,7 @@
 # Coursera_Project__Loan_Default_Prediction
 
-The goal of this project was to develop an ML model that can predict whether someone will default on their loan at the time of application. The first iteration of the model was submitted and assessed based on its final ROC-AUC score, reaching an accuracy score of 73 in the 63rd percentile.
+Developed a machine learning model to predict the likelihood of loan default at the time of application. The initial iteration achieved an accuracy of 73%, placing in the 63rd percentile based on the ROC-AUC evaluation.
 
-Data cleaning, encoding, correlation analysis, variance thresholding, and RFECV (Recursive Feature Elimination with Cross-Validation) were utilized. Due to the nature of the predictor variable (Default) being a binary "Yes" or "No," logistic regression was used as the model for the first iteration.
-
-The plan is to incorporate feature engineering to determine which features can be combined and/or refactored to improve prediction strength. Additionally, hyperparameter tuning will be implemented after RFECV to enhance the selection of significant features further.
+- Conducted data preprocessing including cleaning, encoding, correlation analysis, variance thresholding, and feature selection using RFECV (Recursive Feature Elimination with Cross-Validation).
+- Implemented logistic regression as the initial predictive model to handle the binary target variable (Default: Yes/No).
+- Planned next steps include feature engineering to combine or refactor variables for improved predictive power and hyperparameter tuning post-RFECV to enhance model performance.Developed a machine learning model to predict the likelihood of loan default at the time of application. The initial iteration achieved an accuracy of 73%, placing in the 63rd percentile based on the ROC-AUC evaluation. - Conducted data preprocessing including cleaning, encoding, correlation analysis, variance thresholding, and feature selection using RFECV (Recursive Feature Elimination with Cross-Validation). - Implemented logistic regression as the initial predictive model to handle the binary target variable (Default: Yes/No). - Planned next steps include feature engineering to combine or refactor variables for improved predictive power and hyperparameter tuning post-RFECV to enhance model performance.
